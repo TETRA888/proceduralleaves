@@ -13,5 +13,6 @@
 # Here is me generating a patch of leaves using a simple for loop:
 ![image](https://github.com/user-attachments/assets/0f8e1c4a-c21a-4d8f-bd66-6e3a5ef7fbf0)
 
-
+# And after adding some color ranges I get this nice clean patch:
+![image](https://github.com/user-attachments/assets/65a3e3bf-7ecd-42a6-a2d1-0e91c2223541)
 
