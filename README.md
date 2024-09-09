@@ -10,4 +10,8 @@
 # Here is a set of generated leaves that I made by randomly adjusting certain parameters in the parametric equation:
 ![image](https://github.com/user-attachments/assets/37ddb718-895d-40c7-bc10-4bb29fcba122)
 
+# Here is me generating a patch of leaves using a simple for loop
+![image](https://github.com/user-attachments/assets/0f8e1c4a-c21a-4d8f-bd66-6e3a5ef7fbf0)
+
+
 
