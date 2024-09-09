@@ -16,3 +16,6 @@
 # And after adding some color ranges I get this nice clean patch:
 ![image](https://github.com/user-attachments/assets/65a3e3bf-7ecd-42a6-a2d1-0e91c2223541)
 
+# Adjusting some of the parameters I can get different results:
+![image](https://github.com/user-attachments/assets/b78ded78-b57e-43d0-a93e-671b1add5e95)
+
