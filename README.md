@@ -7,3 +7,7 @@
 # Here is my second idea that just simply involved using a parametric equation that was provided by ChatGPT I just appended the x and y coordinates that were scaled using a parameter I created called LOD (Level Of Detail)
 ![image](https://github.com/user-attachments/assets/e939be1f-4190-47c3-96b8-754a9231ed74)
 
+# Here is a set of generated leaves that I made by randomly adjusting certain parameters in the parametric equation:
+![image](https://github.com/user-attachments/assets/37ddb718-895d-40c7-bc10-4bb29fcba122)
+
+
