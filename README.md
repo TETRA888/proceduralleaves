@@ -18,4 +18,11 @@
 
 # Adjusting some of the parameters I can get different results:
 ![image](https://github.com/user-attachments/assets/b78ded78-b57e-43d0-a93e-671b1add5e95)
+![image](https://github.com/user-attachments/assets/35eb9bb8-3fd9-4ac7-90f3-1f017e43ba4e)
+
+The shape of the patch can also be adjusted by changing the way that the bounds are generated
+currently, I just have a cube range of locations. And since the python random libarary generates pseudorandom numbers that distribute normally which is why it conforms to the shape of a cube.
+
+# To change the patch shape we can use the same parametric equation we used to create the maple mesh:
+
 
