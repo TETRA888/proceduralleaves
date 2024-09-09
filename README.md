@@ -2,8 +2,7 @@
 
 # My initial idea was to manually plot out the location of the vertices of the leaf:
 ![background](https://github.com/user-attachments/assets/da9021cf-bf34-4782-a735-8abe8ab81903)
-## However, I quickly realized how tedious and inefficient this implementation would be
-## Additionally, since I want to make different sized leaves, It would be difficult to properly adjust the location of the vertices without introducing some obfuscated method
+## However, I quickly realized how tedious and inefficient this implementation would be. Additionally, since I want to make different sized leaves, It would be difficult to properly adjust the location of the vertices without introducing some obfuscated method
 
 # Here is my second idea that just simply involved using a parametric equation that was provided by ChatGPT
 # I just appended the x and y coordinates that were scaled using a parameter I created called LOD (Level Of Detail)
