@@ -4,7 +4,6 @@
 ![background](https://github.com/user-attachments/assets/da9021cf-bf34-4782-a735-8abe8ab81903)
 ## However, I quickly realized how tedious and inefficient this implementation would be. Additionally, since I want to make different sized leaves, It would be difficult to properly adjust the location of the vertices without introducing some obfuscated method
 
-# Here is my second idea that just simply involved using a parametric equation that was provided by ChatGPT
-# I just appended the x and y coordinates that were scaled using a parameter I created called LOD (Level Of Detail)
+# Here is my second idea that just simply involved using a parametric equation that was provided by ChatGPT I just appended the x and y coordinates that were scaled using a parameter I created called LOD (Level Of Detail)
 ![image](https://github.com/user-attachments/assets/e939be1f-4190-47c3-96b8-754a9231ed74)
 
