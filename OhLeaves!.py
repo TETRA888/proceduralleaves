@@ -1,5 +1,6 @@
 import bpy
 import math
+import random
 
 def maple_coords(t, size, width, height, jags):
     x = size * math.sin(t) * (width + 0.2 * math.cos(jags * t))
@@ -33,18 +34,43 @@ def create_maple_object(size, width, height, jags):
 
     # Here we are simply just adding the leaf to the main scene collection so we can see it
     bpy.context.collection.objects.link(mesh_obj)
+    
+    return mesh_obj
 
-size = 5 # 5 is a good size
-width = 1 # a good range is between 0.8 and 1.2
-height = 1 # a good range is between 0.8 and 1.2
-jags = 5 # a good range is between 5 and 6
-create_maple_object(size, width, height, jags)
+def generate_maple_leaf():
+    size = random.uniform(4,5) # 5 is a good size
+    width = random.uniform(0.8, 1.2) # a good range is between 0.8 and 1.2
+    height = random.uniform(0.8, 1.2) # a good range is between 0.8 and 1.2
+    jags = random.uniform(4, 7) # a good range is between 5 and 6
+    return create_maple_object(size, width, height, jags)
 
-current_maple_leaf = bpy.context.active_object
+def generate_maple_leaf_color(current_maple_leaf):
+    """
+    To generate colors for the leaf, I just manually checked the colors
+    I chose a first point on the rgb color wheel and then I picked another
+    point.
+    """
+    red = random.uniform(0.26, 0.808) # Range = 0.261745 -> 0.808201
+    blue = random.uniform(0.807, 0.140) # Range = 0.807581 -> 0.140042
+    green = random.uniform(0.0978, 0.0395) # Range = 0.097844 -> 0.03959
+    alpha = 1.0 # this is just the transparency
+    color = (red, blue, green, alpha)
+    
+    material = bpy.data.materials.new("Maple Color")
+    material.diffuse_color = color
+    
+    current_maple_leaf.data.materials.append(material)
+    
+    
 
+def generate_maple_patch():
+    square_bounds = 10
+    num_leaves = 20
+    for i in range(0, num_leaves):
+        current_maple_leaf = generate_maple_leaf()
+        locationx = random.uniform(square_bounds*(-1), square_bounds)
+        locationy = random.uniform(square_bounds*(-1), square_bounds)
+        current_maple_leaf.location = (locationx, locationy, 0)
+        generate_maple_leaf_color(current_maple_leaf)
 
-# This is just for checking the coordinates
-"""
-for i in range(1, 10):
-    print(maple_coords(i))
-"""
+generate_maple_patch()
