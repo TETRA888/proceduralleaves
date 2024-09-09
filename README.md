@@ -24,5 +24,7 @@ The shape of the patch can also be adjusted by changing the way that the bounds 
 currently, I just have a cube range of locations. And since the python random libarary generates pseudorandom numbers that distribute normally which is why it conforms to the shape of a cube.
 
 # To change the patch shape we can use the same parametric equation we used to create the maple mesh:
+![image](https://github.com/user-attachments/assets/7b55d848-c0c8-4087-bff6-acb72d4414af)
+
 
 
